@@ -1,0 +1,11 @@
+include dash_iconify/dash_iconify.min.js
+include dash_iconify/dash_iconify.min.js.map
+include dash_iconify/async-*.js
+include dash_iconify/async-*.js.map
+include dash_iconify/*-shared.js
+include dash_iconify/*-shared.js.map
+include dash_iconify/metadata.json
+include dash_iconify/package-info.json
+include README.md
+include LICENSE
+include package.json
