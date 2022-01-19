@@ -56,5 +56,12 @@
     "engines": {
         "node": ">=8.11.0",
         "npm": ">=6.1.0"
-    }
+    },
+    "files": [
+        "/dash_iconify/async-*{.js,.map}",
+        "/dash_iconify/bundle*{.js,.map}",
+        "/dash_iconify/*{.js,.map}",
+        "LICENSE",
+        "/dash_iconify/metadata.json"
+    ]
 }

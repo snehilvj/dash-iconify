@@ -2,14 +2,17 @@
 
 Dash Iconify based on Iconify is a Dash component library which brings over 100,000 vector icons.
 
-### Table of contents
-  - [Installation](#installation)
-  - [Quickstart](#quickstart)
-  - [Keyword Arguments](#keyword-arguments)
+## Table of contents
+
+- [Dash Iconify](#dash-iconify)
+- [Installation](#installation)
+- [Quickstart](#quickstart)
+- [Using with dmc](#using-with-dmc)
+- [Keyword Arguments](#keyword-arguments)
 
 ## Installation
 
-```
+```bash
 pip install dash-iconify
 ```
 
@@ -34,10 +37,22 @@ if __name__ == "__main__":
 
 ```
 
+## Using with dmc
+
+[Dash Mantine Components](https://github.com/snehilvj/dash-mantine-components) enables using icons natively.
+
+```python
+import dash_mantine_components as dmc
+from dash_iconify import DashIconify
+
+button = dmc.Button("Send Mail", leftIcon=[
+    DashIconify(icon="fluent:folder-mail-16-filled")
+])
+```
+
 ## Keyword Arguments
 
-Visit this site to browse all the available icons: https://icon-sets.iconify.design/
-
+Visit this site to browse all the available icons: <https://icon-sets.iconify.design/>
 
 ```git
 Keyword arguments:
