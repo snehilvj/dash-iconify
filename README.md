@@ -4,7 +4,6 @@ Dash Iconify based on Iconify is a Dash component library which brings over 100,
 
 ## Table of contents
 
-- [Dash Iconify](#dash-iconify)
 - [Installation](#installation)
 - [Quickstart](#quickstart)
 - [Using with dmc](#using-with-dmc)
@@ -26,8 +25,8 @@ app = Dash(__name__)
 
 app.layout = DashIconify(
     icon="ion:logo-github",
-    width=512,
-    height=512,
+    width=30,
+    height=30,
     rotate=1,
     flip="horizontal",
 )

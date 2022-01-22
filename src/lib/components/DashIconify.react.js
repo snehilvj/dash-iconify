@@ -39,7 +39,7 @@ DashIconify.propTypes = {
      * prefix is name of icon set.
      * name is name of icon.
      */
-    icon: PropTypes.string,
+    icon: PropTypes.string.isRequired,
 
     /**
      * The ID used to identify this component in Dash callbacks.
