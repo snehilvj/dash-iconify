@@ -19,6 +19,11 @@ DashIconify.defaultProps = {};
 
 DashIconify.propTypes = {
     /**
+     * Often used with CSS to style elements with common properties
+     */
+    className: PropTypes.string,
+
+    /**
      * Color
      */
     color: PropTypes.string,
@@ -57,15 +62,15 @@ DashIconify.propTypes = {
     rotate: PropTypes.oneOf([0, 1, 2, 3]),
 
     /**
-     * Inline style
-     */
-    style: PropTypes.object,
-
-    /**
      * Dash-assigned callback that should be called to report property changes
      * to Dash, to make them available for callbacks.
      */
     setProps: PropTypes.func,
+
+    /**
+     * Inline style
+     */
+    style: PropTypes.object,
 
     /**
      * Icon width

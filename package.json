@@ -1,6 +1,6 @@
 {
     "name": "dash_iconify",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Iconify for Plotly Dash",
     "repository": {
         "type": "git",
