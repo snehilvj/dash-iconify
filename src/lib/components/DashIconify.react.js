@@ -57,6 +57,16 @@ DashIconify.propTypes = {
     inline: PropTypes.bool,
 
     /**
+     * Rendering mode for the icon.
+     */
+    mode: PropTypes.oneOf(["svg", "style", "bg", "mask"]),
+
+    /**
+     * Content to render while the icon is loading or unavailable.
+     */
+    fallback: PropTypes.node,
+
+    /**
      * Rotates icon, 0: 0 deg, 1: 90 deg, 2: 180 deg, 3: 270 deg
      */
     rotate: PropTypes.oneOf([0, 1, 2, 3]),
